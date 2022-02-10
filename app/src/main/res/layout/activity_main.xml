@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purpledrak">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="400dp"
+                android:layout_height="419dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/magiciansnew" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="240dp"
+                android:layout_height="98dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="88dp"
+                app:srcCompat="@drawable/text" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="134dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/imageView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="106dp"
+                android:background="@drawable/style_button"
+                android:text="Смотреть"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                app:srcCompat="@drawable/fonn" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button3"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="115dp"
+                android:text="В тренде"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button3"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="115dp"
+                android:text="Новое"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button3"
+                android:layout_marginLeft="306dp"
+                android:layout_marginTop="115dp"
+                android:text="Для Вас"
+                android:textColor="@color/orange"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginLeft="16dp"
+                app:srcCompat="@drawable/films" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginLeft="132dp"
+                app:srcCompat="@drawable/photo" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginLeft="132dp"
+                app:srcCompat="@drawable/photo" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginLeft="248dp"
+                app:srcCompat="@drawable/phpotothr" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginLeft="363dp"
+                app:srcCompat="@drawable/right" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="-7dp"
+                android:text="Вы смотрели"
+                android:layout_below="@id/imageView7"
+                android:textColor="@color/orange"
+                android:textSize="24dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="395dp"
+                android:layout_height="260dp"
+                android:layout_below="@id/textView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/postervniznew" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="395dp"
+                android:layout_height="260dp"
+                android:layout_below="@id/textView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="400dp"
+                android:layout_height="87dp"
+                android:layout_below="@+id/imageView8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                app:srcCompat="@drawable/backne" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="22dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="780dp"
+                app:srcCompat="@drawable/buttonn" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:onClick="clickToVid"
+                android:visibility="visible"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="780dp"
+                app:srcCompat="@drawable/strlka" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Altered Carbon"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:visibility="visible"
+                android:layout_marginTop="885dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="40dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/imageView8"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="19dp"
+                app:srcCompat="@drawable/left" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="@color/orange"
+                android:textSize="10dp"
+                android:layout_below="@id/imageView10"
+                android:layout_marginLeft="33dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главное" />
+            <TextView
+                android:id="@+id/textView22"
+                android:textColor="#757575"
+                android:textSize="10dp"
+                android:layout_below="@id/imageView10"
+                android:layout_marginLeft="133dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Подборка" />
+            <TextView
+                android:id="@+id/textView21"
+                android:textColor="#757575"
+                android:textSize="10dp"
+                android:layout_below="@id/imageView10"
+                android:layout_marginLeft="233dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Коллекции" />
+            <TextView
+                android:id="@+id/textView32"
+                android:textColor="#757575"
+                android:textSize="10dp"
+                android:layout_below="@id/imageView10"
+                android:layout_marginLeft="333dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Профиль" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="40dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/imageView8"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="19dp"
+                app:srcCompat="@drawable/zvezda" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/imageView8"
+                android:layout_marginLeft="233dp"
+                android:layout_marginTop="19dp"
+                app:srcCompat="@drawable/podborr" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="40dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/imageView8"
+                android:layout_marginLeft="333dp"
+                android:layout_marginTop="19dp"
+                app:srcCompat="@drawable/chelovic" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
